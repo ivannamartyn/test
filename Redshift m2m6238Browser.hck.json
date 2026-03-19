@@ -1,5 +1,5 @@
 {
-  "modelName": "changednew_model",
+  "modelName": "2new_model",
   "collections": [],
   "buckets": [],
   "views": [],
@@ -30,7 +30,7 @@
   "creationTS": "2025-12-18T11:36:15.130Z",
   "GUID": "a2abfddd-d139-4449-8833-3a3bba66ef46",
   "isLineageEnabled": false,
-  "lastModifTS": "2026-03-19T09:32:48.075Z",
+  "lastModifTS": "2026-03-19T10:07:20.430Z",
   "persistenceSchemaVersion": "8",
   "isCreatedByPlugin": true,
   "pluginInformation": {
