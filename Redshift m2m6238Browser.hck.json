@@ -1,5 +1,5 @@
 {
-  "modelName": "new_model",
+  "modelName": "newnew_model",
   "collections": [],
   "buckets": [],
   "views": [],
@@ -30,16 +30,21 @@
   "creationTS": "2025-12-18T11:36:15.130Z",
   "GUID": "a2abfddd-d139-4449-8833-3a3bba66ef46",
   "isLineageEnabled": false,
-  "lastModifTS": "2025-12-18T11:36:18.309Z",
+  "lastModifTS": "2026-03-19T09:29:41.246Z",
   "persistenceSchemaVersion": "8",
   "isCreatedByPlugin": true,
   "pluginInformation": {
     "pluginName": "Redshift",
-    "pluginVersion": "0.2.18",
+    "pluginVersion": "0.2.22",
     "pluginEngineVersion": "1.0.0"
   },
   "applicationInformation": {
-    "version": "8.8.1"
+    "version": "8.9.9"
+  },
+  "hackoladeMeta": {
+    "validationErrors": {
+      "modelName": false
+    }
   },
   "settings": {
     "centralPane": {
