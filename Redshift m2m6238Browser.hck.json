@@ -1,12 +1,172 @@
 {
-  "modelName": "new_model",
-  "collections": [],
-  "buckets": [],
+  "modelName": "newnew_model",
+  "collections": [
+    {
+      "collectionName": "new_table",
+      "type": "object",
+      "properties": [
+        {
+          "name": "new_column",
+          "hackoladeMeta": {},
+          "isActivated": true,
+          "defaultOption": "Default",
+          "identity": {
+            "seed": 0,
+            "step": 1
+          },
+          "generateIdentity": "always",
+          "tPrecision": 9,
+          "superType": "JSON",
+          "primaryKey": false,
+          "mode": "varchar",
+          "subtype": "string",
+          "required": false,
+          "alternateKey": false,
+          "childType": "varchar",
+          "type": "string",
+          "compositeKey": [
+            "compositeDistKey",
+            "compositeSortKey",
+            "compositePrimaryKey",
+            "compositeUniqueKey"
+          ],
+          "compositeDistKey": false,
+          "compositeSortKey": false,
+          "compositePrimaryKey": false,
+          "compositeUniqueKey": false,
+          "GUID": "51939868-ff55-4a31-aa51-e8efa54e9f55",
+          "error": {
+            "code": false
+          }
+        },
+        {
+          "name": "new_column1",
+          "hackoladeMeta": {},
+          "isActivated": true,
+          "defaultOption": "Default",
+          "identity": {
+            "seed": 0,
+            "step": 1
+          },
+          "generateIdentity": "always",
+          "tPrecision": 9,
+          "superType": "JSON",
+          "primaryKey": false,
+          "mode": "varchar",
+          "subtype": "string",
+          "required": false,
+          "alternateKey": false,
+          "childType": "varchar",
+          "type": "string",
+          "compositeKey": [
+            "compositeDistKey",
+            "compositeSortKey",
+            "compositePrimaryKey",
+            "compositeUniqueKey"
+          ],
+          "compositeDistKey": false,
+          "compositeSortKey": false,
+          "compositePrimaryKey": false,
+          "compositeUniqueKey": false,
+          "GUID": "eeb92adb-7a50-4283-8f96-384619bb9964",
+          "error": {
+            "code": false
+          }
+        },
+        {
+          "name": "new_column2",
+          "hackoladeMeta": {},
+          "isActivated": true,
+          "defaultOption": "Default",
+          "identity": {
+            "seed": 0,
+            "step": 1
+          },
+          "generateIdentity": "always",
+          "tPrecision": 9,
+          "superType": "JSON",
+          "primaryKey": false,
+          "mode": "varchar",
+          "subtype": "string",
+          "required": false,
+          "alternateKey": false,
+          "childType": "varchar",
+          "type": "string",
+          "compositeKey": [
+            "compositeDistKey",
+            "compositeSortKey",
+            "compositePrimaryKey",
+            "compositeUniqueKey"
+          ],
+          "compositeDistKey": false,
+          "compositeSortKey": false,
+          "compositePrimaryKey": false,
+          "compositeUniqueKey": false,
+          "GUID": "a7818807-83d0-4d14-bee8-41d3601a8a4f",
+          "error": {
+            "code": false
+          }
+        }
+      ],
+      "definitions": {
+        "type": "definitions",
+        "properties": [],
+        "GUID": "65cc5532-714c-42ba-a1b2-292f18d161fd"
+      },
+      "isActivated": true,
+      "additionalProperties": false,
+      "autoSortKey": true,
+      "ifNotExists": true,
+      "sortStyle": "Compound",
+      "formatTypeOptions": {
+        "NULL_IF": [
+          {
+            "NULL_IF_item": "\\N"
+          }
+        ]
+      },
+      "GUID": "48822ee7-d667-485a-9510-8e5308a3f4ce",
+      "bucketId": "b2b589c9-64dd-4ed4-bf79-7a86c6d155a3",
+      "hackoladeMeta": {
+        "validationErrors": {}
+      }
+    }
+  ],
+  "buckets": [
+    {
+      "name": "mynew_schema",
+      "type": "bucket",
+      "collectionIds": [
+        "48822ee7-d667-485a-9510-8e5308a3f4ce"
+      ],
+      "backgroundColor": {
+        "r": 129,
+        "g": 212,
+        "b": 250,
+        "a": 1
+      },
+      "show": true,
+      "isActivated": true,
+      "unlimitedQuota": false,
+      "ifNotExists": true,
+      "indexes": [],
+      "GUID": "b2b589c9-64dd-4ed4-bf79-7a86c6d155a3",
+      "hackoladeMeta": {
+        "validationErrors": {}
+      }
+    }
+  ],
   "views": [],
   "relationships": [],
   "users": [],
   "diagramViews": [],
-  "idToNameHashTable": {},
+  "idToNameHashTable": {
+    "b2b589c9-64dd-4ed4-bf79-7a86c6d155a3": "mynew_schema",
+    "48822ee7-d667-485a-9510-8e5308a3f4ce": "new_table",
+    "51939868-ff55-4a31-aa51-e8efa54e9f55": "new_column",
+    "eeb92adb-7a50-4283-8f96-384619bb9964": "new_column1",
+    "a7818807-83d0-4d14-bee8-41d3601a8a4f": "new_column2"
+  },
   "definitions": {
     "type": "definitions",
     "properties": [],
@@ -30,28 +190,48 @@
   "creationTS": "2025-12-18T11:36:15.130Z",
   "GUID": "a2abfddd-d139-4449-8833-3a3bba66ef46",
   "isLineageEnabled": false,
-  "lastModifTS": "2025-12-18T11:36:18.309Z",
+  "lastModifTS": "2026-03-19T09:28:46.458Z",
   "persistenceSchemaVersion": "8",
   "isCreatedByPlugin": true,
   "pluginInformation": {
     "pluginName": "Redshift",
-    "pluginVersion": "0.2.18",
+    "pluginVersion": "0.2.22",
     "pluginEngineVersion": "1.0.0"
   },
   "applicationInformation": {
-    "version": "8.8.1"
+    "version": "8.9.9"
+  },
+  "hackoladeMeta": {
+    "validationErrors": {
+      "modelName": false
+    }
   },
   "settings": {
     "centralPane": {
       "dbLevel": {
-        "erd": [],
+        "erd": [
+          {
+            "GUID": "48822ee7-d667-485a-9510-8e5308a3f4ce",
+            "x": 104,
+            "y": 104,
+            "width": 223,
+            "height": 86,
+            "color": {}
+          }
+        ],
         "erdDefinitions": {
           "erd": [],
           "rootPath": [],
           "entities": [],
           "decorativeSymbols": []
         },
-        "buckets": [],
+        "buckets": [
+          {
+            "x": 40,
+            "y": 40,
+            "GUID": "b2b589c9-64dd-4ed4-bf79-7a86c6d155a3"
+          }
+        ],
         "collapsedNodes": [],
         "activeRelationship": "",
         "activeRelationshipFields": {
