@@ -189,7 +189,7 @@
       }
     },
     {
-      "collectionName": "hackDelete",
+      "collectionName": "ownDelete",
       "type": "object",
       "properties": [
         {
@@ -210,7 +210,7 @@
           ],
           "compositePrimaryKey": false,
           "compositeUniqueKey": false,
-          "GUID": "e0a7ff50-5407-429f-b5a6-33d3a4bb1179",
+          "GUID": "06b8cf71-2c4d-40ce-bee9-9711396853f3",
           "error": {
             "name": false,
             "code": false
@@ -234,7 +234,7 @@
           ],
           "compositePrimaryKey": false,
           "compositeUniqueKey": false,
-          "GUID": "04e08176-9e1b-44fa-a7bf-1df8f323e31e",
+          "GUID": "ea763949-4ff3-4c1b-89cf-4cdf29b0f302",
           "error": {
             "name": false,
             "code": false
@@ -258,7 +258,7 @@
           ],
           "compositePrimaryKey": false,
           "compositeUniqueKey": false,
-          "GUID": "0fa3e665-6f20-4832-a65a-17a2b32b7292",
+          "GUID": "081d7728-5bf0-4a3f-9b4e-811d4e83365f",
           "error": {
             "name": false,
             "code": false
@@ -268,11 +268,11 @@
       "definitions": {
         "type": "definitions",
         "properties": [],
-        "GUID": "d8b0ea89-4ee0-4943-9ec7-6612cb0faa9b"
+        "GUID": "854b71da-6f14-40db-a237-5e590b851a08"
       },
       "isActivated": true,
       "additionalProperties": false,
-      "GUID": "00c1110b-2c35-46b5-ba7b-7bf3497daed0",
+      "GUID": "0c461aef-2ac2-46c7-952b-8d35424d59df",
       "bucketId": "2f961fc4-46ba-448d-b851-b3999d46c713",
       "hackoladeMeta": {
         "validationErrors": {}
@@ -280,6 +280,7 @@
     },
     {
       "collectionName": "own_add",
+      "collectionName": "hack_add",
       "type": "object",
       "properties": [
         {
@@ -473,6 +474,15 @@
     "03acaa6b-9343-4c50-81c9-097234afe131": "new_column",
     "3eba8b18-db4d-45b8-bffb-cad05226a02b": "new_column1",
     "b695d77a-32e9-4c52-88a8-cabed41467c4": "new_column2"
+    "0c461aef-2ac2-46c7-952b-8d35424d59df": "ownDelete",
+    "06b8cf71-2c4d-40ce-bee9-9711396853f3": "new_column",
+    "ea763949-4ff3-4c1b-89cf-4cdf29b0f302": "new_column1",
+    "081d7728-5bf0-4a3f-9b4e-811d4e83365f": "new_column2",
+    "f917af19-ef8c-485c-beb2-360f49b9d217": "fk_new_table_new_column_to_new_table1_new_column2",
+    "6a441bc9-e967-4b67-8cc1-1587cd583187": "hack_add",
+    "b76de3a4-3603-4879-838a-002e7e2e5bdf": "new_column",
+    "cfecdc4f-01fd-4d90-af31-22b73d16b767": "new_column1",
+    "0f4b4d93-9d4a-46ee-8266-b72a6905ecbc": "new_column2"
   },
   "definitions": {
     "type": "definitions",
@@ -531,9 +541,9 @@
             "color": {}
           },
           {
-            "GUID": "00c1110b-2c35-46b5-ba7b-7bf3497daed0",
-            "x": 1450,
-            "y": 1370,
+            "GUID": "0c461aef-2ac2-46c7-952b-8d35424d59df",
+            "x": 1127,
+            "y": 1275,
             "width": 205,
             "height": 86,
             "color": {}
