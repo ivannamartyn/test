@@ -189,96 +189,6 @@
       }
     },
     {
-      "collectionName": "ownUserDelete",
-      "type": "object",
-      "properties": [
-        {
-          "name": "new_column",
-          "hackoladeMeta": {},
-          "isActivated": true,
-          "primaryKey": false,
-          "mode": "char",
-          "uppercase": false,
-          "caseSpecific": false,
-          "required": false,
-          "alternateKey": false,
-          "childType": "char",
-          "type": "string",
-          "compositeKey": [
-            "compositePrimaryKey",
-            "compositeUniqueKey"
-          ],
-          "compositePrimaryKey": false,
-          "compositeUniqueKey": false,
-          "GUID": "417960be-3604-453e-adf0-65f4a567cd42",
-          "error": {
-            "name": false,
-            "code": false
-          }
-        },
-        {
-          "name": "new_column1",
-          "hackoladeMeta": {},
-          "isActivated": true,
-          "primaryKey": false,
-          "mode": "char",
-          "uppercase": false,
-          "caseSpecific": false,
-          "required": false,
-          "alternateKey": false,
-          "childType": "char",
-          "type": "string",
-          "compositeKey": [
-            "compositePrimaryKey",
-            "compositeUniqueKey"
-          ],
-          "compositePrimaryKey": false,
-          "compositeUniqueKey": false,
-          "GUID": "9339cef7-7695-4b9e-9af4-b22d407fbfab",
-          "error": {
-            "name": false,
-            "code": false
-          }
-        },
-        {
-          "name": "new_column2",
-          "hackoladeMeta": {},
-          "isActivated": true,
-          "primaryKey": false,
-          "mode": "char",
-          "uppercase": false,
-          "caseSpecific": false,
-          "required": false,
-          "alternateKey": false,
-          "childType": "char",
-          "type": "string",
-          "compositeKey": [
-            "compositePrimaryKey",
-            "compositeUniqueKey"
-          ],
-          "compositePrimaryKey": false,
-          "compositeUniqueKey": false,
-          "GUID": "264635bf-be45-4fc4-8c25-0a4136248ed7",
-          "error": {
-            "name": false,
-            "code": false
-          }
-        }
-      ],
-      "definitions": {
-        "type": "definitions",
-        "properties": [],
-        "GUID": "dcb391fb-7c5c-45e0-8eec-2e2b4e846d45"
-      },
-      "isActivated": true,
-      "additionalProperties": false,
-      "GUID": "fc5fab57-7163-43fe-9d95-10add5cd3785",
-      "bucketId": "e3a3f419-7f85-4411-9bf4-10c0f89d212d",
-      "hackoladeMeta": {
-        "validationErrors": {}
-      }
-    },
-    {
       "collectionName": "addedHackUser",
       "type": "object",
       "properties": [
@@ -367,6 +277,96 @@
       "hackoladeMeta": {
         "validationErrors": {}
       }
+    },
+    {
+      "collectionName": "addedOwnUser",
+      "type": "object",
+      "properties": [
+        {
+          "name": "new_column",
+          "hackoladeMeta": {},
+          "isActivated": true,
+          "primaryKey": false,
+          "mode": "char",
+          "uppercase": false,
+          "caseSpecific": false,
+          "required": false,
+          "alternateKey": false,
+          "childType": "char",
+          "type": "string",
+          "compositeKey": [
+            "compositePrimaryKey",
+            "compositeUniqueKey"
+          ],
+          "compositePrimaryKey": false,
+          "compositeUniqueKey": false,
+          "GUID": "318b9983-9abe-47a4-b36f-1bf602c06484",
+          "error": {
+            "name": false,
+            "code": false
+          }
+        },
+        {
+          "name": "new_column1",
+          "hackoladeMeta": {},
+          "isActivated": true,
+          "primaryKey": false,
+          "mode": "char",
+          "uppercase": false,
+          "caseSpecific": false,
+          "required": false,
+          "alternateKey": false,
+          "childType": "char",
+          "type": "string",
+          "compositeKey": [
+            "compositePrimaryKey",
+            "compositeUniqueKey"
+          ],
+          "compositePrimaryKey": false,
+          "compositeUniqueKey": false,
+          "GUID": "4bbc53e1-5272-4879-9f71-32e8cb6a4644",
+          "error": {
+            "name": false,
+            "code": false
+          }
+        },
+        {
+          "name": "new_column2",
+          "hackoladeMeta": {},
+          "isActivated": true,
+          "primaryKey": false,
+          "mode": "char",
+          "uppercase": false,
+          "caseSpecific": false,
+          "required": false,
+          "alternateKey": false,
+          "childType": "char",
+          "type": "string",
+          "compositeKey": [
+            "compositePrimaryKey",
+            "compositeUniqueKey"
+          ],
+          "compositePrimaryKey": false,
+          "compositeUniqueKey": false,
+          "GUID": "4fa4163b-cb6c-4e5c-9151-4b3603e97bea",
+          "error": {
+            "name": false,
+            "code": false
+          }
+        }
+      ],
+      "definitions": {
+        "type": "definitions",
+        "properties": [],
+        "GUID": "09c9c761-2766-4b24-bae8-d35c4289e037"
+      },
+      "isActivated": true,
+      "additionalProperties": false,
+      "GUID": "da740773-9e3c-4c33-b641-e33c6e9a03a4",
+      "bucketId": "e3a3f419-7f85-4411-9bf4-10c0f89d212d",
+      "hackoladeMeta": {
+        "validationErrors": {}
+      }
     }
   ],
   "buckets": [
@@ -376,8 +376,8 @@
       "collectionIds": [
         "24997351-dd95-41a3-80e4-c3e5213510e8",
         "c566ae26-31dc-4270-9cc5-be27f343aceb",
-        "fc5fab57-7163-43fe-9d95-10add5cd3785",
-        "eb2e8c98-c095-4b2f-b4b0-9cff5225bd24"
+        "eb2e8c98-c095-4b2f-b4b0-9cff5225bd24",
+        "da740773-9e3c-4c33-b641-e33c6e9a03a4"
       ],
       "backgroundColor": {
         "r": 129,
@@ -465,14 +465,14 @@
     "31f9eef9-1974-42c9-bb61-18bfd2bea991": "new_column1",
     "76b9f9fc-2254-47e3-ac63-9a477c080d58": "new_column2",
     "48845c9b-660b-4e90-bc1e-e9e39feaaf3a": "fk_new_table_new_column_to_new_table1_new_column2",
-    "fc5fab57-7163-43fe-9d95-10add5cd3785": "ownUserDelete",
-    "417960be-3604-453e-adf0-65f4a567cd42": "new_column",
-    "9339cef7-7695-4b9e-9af4-b22d407fbfab": "new_column1",
-    "264635bf-be45-4fc4-8c25-0a4136248ed7": "new_column2",
     "eb2e8c98-c095-4b2f-b4b0-9cff5225bd24": "addedHackUser",
     "7f4d7535-8373-469a-b585-2c038f0562e4": "new_column",
     "7a5f43b3-18e5-4ca4-89f3-17d786be1717": "new_column1",
-    "01a58d05-9360-4961-9a8f-9a6a8c584be3": "new_column2"
+    "01a58d05-9360-4961-9a8f-9a6a8c584be3": "new_column2",
+    "da740773-9e3c-4c33-b641-e33c6e9a03a4": "addedOwnUser",
+    "318b9983-9abe-47a4-b36f-1bf602c06484": "new_column",
+    "4bbc53e1-5272-4879-9f71-32e8cb6a4644": "new_column1",
+    "4fa4163b-cb6c-4e5c-9151-4b3603e97bea": "new_column2"
   },
   "definitions": {
     "type": "definitions",
@@ -498,7 +498,7 @@
   "creationTS": "2026-04-24T15:44:30.750Z",
   "GUID": "01a8d4f7-e32d-42c7-8e10-2fa135c950cd",
   "isLineageEnabled": false,
-  "lastModifTS": "2026-04-24T16:02:14.770Z",
+  "lastModifTS": "2026-04-24T16:12:57.941Z",
   "persistenceSchemaVersion": "8",
   "isCreatedByPlugin": true,
   "pluginInformation": {
@@ -531,18 +531,18 @@
             "color": {}
           },
           {
-            "GUID": "fc5fab57-7163-43fe-9d95-10add5cd3785",
-            "x": 1399,
-            "y": 1236,
-            "width": 208,
-            "height": 86,
-            "color": {}
-          },
-          {
             "GUID": "eb2e8c98-c095-4b2f-b4b0-9cff5225bd24",
             "x": 1102,
             "y": 1255,
             "width": 211,
+            "height": 86,
+            "color": {}
+          },
+          {
+            "GUID": "da740773-9e3c-4c33-b641-e33c6e9a03a4",
+            "x": 1405,
+            "y": 1261,
+            "width": 209,
             "height": 86,
             "color": {}
           }
