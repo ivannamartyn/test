@@ -279,6 +279,7 @@
       }
     },
     {
+      "collectionName": "own_add",
       "collectionName": "hack_add",
       "type": "object",
       "properties": [
@@ -300,7 +301,7 @@
           ],
           "compositePrimaryKey": false,
           "compositeUniqueKey": false,
-          "GUID": "b76de3a4-3603-4879-838a-002e7e2e5bdf",
+          "GUID": "03acaa6b-9343-4c50-81c9-097234afe131",
           "error": {
             "name": false,
             "code": false
@@ -324,7 +325,7 @@
           ],
           "compositePrimaryKey": false,
           "compositeUniqueKey": false,
-          "GUID": "cfecdc4f-01fd-4d90-af31-22b73d16b767",
+          "GUID": "3eba8b18-db4d-45b8-bffb-cad05226a02b",
           "error": {
             "name": false,
             "code": false
@@ -348,7 +349,7 @@
           ],
           "compositePrimaryKey": false,
           "compositeUniqueKey": false,
-          "GUID": "0f4b4d93-9d4a-46ee-8266-b72a6905ecbc",
+          "GUID": "b695d77a-32e9-4c52-88a8-cabed41467c4",
           "error": {
             "name": false,
             "code": false
@@ -358,11 +359,11 @@
       "definitions": {
         "type": "definitions",
         "properties": [],
-        "GUID": "dc2be172-193d-4107-a594-bdb0974aff57"
+        "GUID": "8e6c0743-1839-44f7-9471-3fd9c0385c5f"
       },
       "isActivated": true,
       "additionalProperties": false,
-      "GUID": "6a441bc9-e967-4b67-8cc1-1587cd583187",
+      "GUID": "d5be7350-af54-46b8-981e-c3336bf53ccf",
       "bucketId": "2f961fc4-46ba-448d-b851-b3999d46c713",
       "hackoladeMeta": {
         "validationErrors": {}
@@ -376,8 +377,8 @@
       "collectionIds": [
         "c8858c71-9381-412d-91ae-7bd73ca88423",
         "0f26756b-cabe-4614-8476-67f29f9b7860",
-        "0c461aef-2ac2-46c7-952b-8d35424d59df",
-        "6a441bc9-e967-4b67-8cc1-1587cd583187"
+        "00c1110b-2c35-46b5-ba7b-7bf3497daed0",
+        "d5be7350-af54-46b8-981e-c3336bf53ccf"
       ],
       "backgroundColor": {
         "r": 129,
@@ -464,6 +465,15 @@
     "7ec38c95-539f-4b50-82be-cf4519e0ac4a": "new_column",
     "e9f45316-c8cd-4002-b575-d7b3a24728fa": "new_column1",
     "dc546913-582b-4576-b9de-4e7d061c91d5": "new_column2",
+    "00c1110b-2c35-46b5-ba7b-7bf3497daed0": "hackDelete",
+    "e0a7ff50-5407-429f-b5a6-33d3a4bb1179": "new_column",
+    "04e08176-9e1b-44fa-a7bf-1df8f323e31e": "new_column1",
+    "0fa3e665-6f20-4832-a65a-17a2b32b7292": "new_column2",
+    "f917af19-ef8c-485c-beb2-360f49b9d217": "fk_new_table_new_column_to_new_table1_new_column2",
+    "d5be7350-af54-46b8-981e-c3336bf53ccf": "own_add",
+    "03acaa6b-9343-4c50-81c9-097234afe131": "new_column",
+    "3eba8b18-db4d-45b8-bffb-cad05226a02b": "new_column1",
+    "b695d77a-32e9-4c52-88a8-cabed41467c4": "new_column2"
     "0c461aef-2ac2-46c7-952b-8d35424d59df": "ownDelete",
     "06b8cf71-2c4d-40ce-bee9-9711396853f3": "new_column",
     "ea763949-4ff3-4c1b-89cf-4cdf29b0f302": "new_column1",
@@ -498,7 +508,7 @@
   "creationTS": "2026-04-24T16:25:35.053Z",
   "GUID": "492783c6-38a7-4812-b08f-400c31e58976",
   "isLineageEnabled": false,
-  "lastModifTS": "2026-04-24T16:31:02.194Z",
+  "lastModifTS": "2026-04-24T16:29:04.906Z",
   "persistenceSchemaVersion": "8",
   "isCreatedByPlugin": true,
   "pluginInformation": {
@@ -539,9 +549,9 @@
             "color": {}
           },
           {
-            "GUID": "6a441bc9-e967-4b67-8cc1-1587cd583187",
-            "x": 1385.562076749435,
-            "y": 1323.4920993227984,
+            "GUID": "d5be7350-af54-46b8-981e-c3336bf53ccf",
+            "x": 1114.2562076749427,
+            "y": 1272.4345372460498,
             "width": 205,
             "height": 86,
             "color": {}
