@@ -279,7 +279,7 @@
       }
     },
     {
-      "collectionName": "del_hack",
+      "collectionName": "add_hack",
       "type": "object",
       "properties": [
         {
@@ -300,7 +300,7 @@
           ],
           "compositePrimaryKey": false,
           "compositeUniqueKey": false,
-          "GUID": "40ebc29b-4fbc-4b8a-8171-61a1d7da4648",
+          "GUID": "448f1f03-54b8-4808-8aa7-80239c6222d5",
           "error": {
             "name": false,
             "code": false
@@ -324,7 +324,7 @@
           ],
           "compositePrimaryKey": false,
           "compositeUniqueKey": false,
-          "GUID": "b166bcd2-6c06-4a37-80b3-77c40520df76",
+          "GUID": "189702aa-9d00-4e46-b365-964d9a9596e2",
           "error": {
             "name": false,
             "code": false
@@ -348,7 +348,7 @@
           ],
           "compositePrimaryKey": false,
           "compositeUniqueKey": false,
-          "GUID": "40ea4d3a-6192-42ab-aa97-2b94fba33386",
+          "GUID": "a43bda5b-5ce9-44fb-845c-5ea2fe8901f2",
           "error": {
             "name": false,
             "code": false
@@ -358,11 +358,11 @@
       "definitions": {
         "type": "definitions",
         "properties": [],
-        "GUID": "4d8fccbb-d2cc-4893-a764-3d1b50599086"
+        "GUID": "ab924847-e098-4a03-af0c-f186d31c9c17"
       },
       "isActivated": true,
       "additionalProperties": false,
-      "GUID": "d60eb24d-1280-4511-99b1-f84ea0a89475",
+      "GUID": "1f4d0e04-e4d6-4e04-b062-8b6a5783affc",
       "bucketId": "f3e66d13-6682-4404-9007-1a278531e25d",
       "hackoladeMeta": {
         "validationErrors": {}
@@ -376,8 +376,8 @@
       "collectionIds": [
         "2b8d47bc-86ec-4042-a4c0-5b9fb4b093ab",
         "65c8ee8b-3a1a-4eaa-9d7f-5277f1b488e3",
-        "d60eb24d-1280-4511-99b1-f84ea0a89475",
-        "b1779f0a-ee72-4d63-af81-cf0ab5770af3"
+        "b1779f0a-ee72-4d63-af81-cf0ab5770af3",
+        "1f4d0e04-e4d6-4e04-b062-8b6a5783affc"
       ],
       "backgroundColor": {
         "r": 129,
@@ -469,10 +469,10 @@
     "7ce60213-d0ee-4767-97f8-84022439fa16": "new_column",
     "7b5bcd5e-df06-47fe-b476-5937c4641dc6": "new_column1",
     "cd97786f-3550-4d75-904a-d97f743324bf": "new_column2",
-    "d60eb24d-1280-4511-99b1-f84ea0a89475": "del_hack",
-    "40ebc29b-4fbc-4b8a-8171-61a1d7da4648": "new_column",
-    "b166bcd2-6c06-4a37-80b3-77c40520df76": "new_column1",
-    "40ea4d3a-6192-42ab-aa97-2b94fba33386": "new_column2"
+    "1f4d0e04-e4d6-4e04-b062-8b6a5783affc": "add_hack",
+    "448f1f03-54b8-4808-8aa7-80239c6222d5": "new_column",
+    "189702aa-9d00-4e46-b365-964d9a9596e2": "new_column1",
+    "a43bda5b-5ce9-44fb-845c-5ea2fe8901f2": "new_column2"
   },
   "definitions": {
     "type": "definitions",
@@ -498,7 +498,7 @@
   "creationTS": "2026-04-24T16:50:44.813Z",
   "GUID": "6487012c-ef33-49e6-b661-c11b228f93f0",
   "isLineageEnabled": false,
-  "lastModifTS": "2026-04-24T16:51:26.437Z",
+  "lastModifTS": "2026-04-24T16:55:26.584Z",
   "persistenceSchemaVersion": "8",
   "isCreatedByPlugin": true,
   "pluginInformation": {
@@ -509,6 +509,7 @@
   "applicationInformation": {
     "version": "8.10.4"
   },
+  "hackoladeMeta": {},
   "settings": {
     "centralPane": {
       "dbLevel": {
@@ -538,9 +539,9 @@
             "color": {}
           },
           {
-            "GUID": "d60eb24d-1280-4511-99b1-f84ea0a89475",
-            "x": 1275,
-            "y": 1332,
+            "GUID": "1f4d0e04-e4d6-4e04-b062-8b6a5783affc",
+            "x": 1291,
+            "y": 1361,
             "width": 205,
             "height": 86,
             "color": {}
@@ -554,7 +555,7 @@
         },
         "buckets": [
           {
-            "x": 1211,
+            "x": 1227,
             "y": 1126,
             "GUID": "f3e66d13-6682-4404-9007-1a278531e25d"
           }
@@ -572,7 +573,8 @@
           "buckets": [],
           "decorativeSymbols": [],
           "forceLayout": true,
-          "defaultLinkLength": 300
+          "defaultLinkLength": 300,
+          "options": []
         },
         "diagramViews": [],
         "decorativeSymbols": [],
