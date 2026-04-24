@@ -353,6 +353,30 @@
             "name": false,
             "code": false
           }
+        },
+        {
+          "name": "new_column3",
+          "hackoladeMeta": {},
+          "isActivated": true,
+          "primaryKey": false,
+          "mode": "char",
+          "uppercase": false,
+          "caseSpecific": false,
+          "required": false,
+          "alternateKey": false,
+          "childType": "char",
+          "type": "string",
+          "compositeKey": [
+            "compositePrimaryKey",
+            "compositeUniqueKey"
+          ],
+          "compositePrimaryKey": false,
+          "compositeUniqueKey": false,
+          "GUID": "200f78b3-27eb-49f2-b15d-d9c4950bbad5",
+          "error": {
+            "name": false,
+            "code": false
+          }
         }
       ],
       "definitions": {
@@ -472,7 +496,8 @@
     "d5be7350-af54-46b8-981e-c3336bf53ccf": "own_add",
     "03acaa6b-9343-4c50-81c9-097234afe131": "new_column",
     "3eba8b18-db4d-45b8-bffb-cad05226a02b": "new_column1",
-    "b695d77a-32e9-4c52-88a8-cabed41467c4": "new_column2"
+    "b695d77a-32e9-4c52-88a8-cabed41467c4": "new_column2",
+    "200f78b3-27eb-49f2-b15d-d9c4950bbad5": "new_column3"
   },
   "definitions": {
     "type": "definitions",
@@ -498,7 +523,7 @@
   "creationTS": "2026-04-24T16:25:35.053Z",
   "GUID": "492783c6-38a7-4812-b08f-400c31e58976",
   "isLineageEnabled": false,
-  "lastModifTS": "2026-04-24T16:29:04.906Z",
+  "lastModifTS": "2026-04-24T16:45:55.425Z",
   "persistenceSchemaVersion": "8",
   "isCreatedByPlugin": true,
   "pluginInformation": {
@@ -543,7 +568,7 @@
             "x": 1114.2562076749427,
             "y": 1272.4345372460498,
             "width": 205,
-            "height": 86,
+            "height": 104,
             "color": {}
           }
         ],
