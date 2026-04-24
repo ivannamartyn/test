@@ -189,96 +189,6 @@
       }
     },
     {
-      "collectionName": "del_own",
-      "type": "object",
-      "properties": [
-        {
-          "name": "new_column",
-          "hackoladeMeta": {},
-          "isActivated": true,
-          "primaryKey": false,
-          "mode": "char",
-          "uppercase": false,
-          "caseSpecific": false,
-          "required": false,
-          "alternateKey": false,
-          "childType": "char",
-          "type": "string",
-          "compositeKey": [
-            "compositePrimaryKey",
-            "compositeUniqueKey"
-          ],
-          "compositePrimaryKey": false,
-          "compositeUniqueKey": false,
-          "GUID": "7ce60213-d0ee-4767-97f8-84022439fa16",
-          "error": {
-            "name": false,
-            "code": false
-          }
-        },
-        {
-          "name": "new_column1",
-          "hackoladeMeta": {},
-          "isActivated": true,
-          "primaryKey": false,
-          "mode": "char",
-          "uppercase": false,
-          "caseSpecific": false,
-          "required": false,
-          "alternateKey": false,
-          "childType": "char",
-          "type": "string",
-          "compositeKey": [
-            "compositePrimaryKey",
-            "compositeUniqueKey"
-          ],
-          "compositePrimaryKey": false,
-          "compositeUniqueKey": false,
-          "GUID": "7b5bcd5e-df06-47fe-b476-5937c4641dc6",
-          "error": {
-            "name": false,
-            "code": false
-          }
-        },
-        {
-          "name": "new_column2",
-          "hackoladeMeta": {},
-          "isActivated": true,
-          "primaryKey": false,
-          "mode": "char",
-          "uppercase": false,
-          "caseSpecific": false,
-          "required": false,
-          "alternateKey": false,
-          "childType": "char",
-          "type": "string",
-          "compositeKey": [
-            "compositePrimaryKey",
-            "compositeUniqueKey"
-          ],
-          "compositePrimaryKey": false,
-          "compositeUniqueKey": false,
-          "GUID": "cd97786f-3550-4d75-904a-d97f743324bf",
-          "error": {
-            "name": false,
-            "code": false
-          }
-        }
-      ],
-      "definitions": {
-        "type": "definitions",
-        "properties": [],
-        "GUID": "5621e832-57b1-4c7d-ab40-3eeaf6fb4d4a"
-      },
-      "isActivated": true,
-      "additionalProperties": false,
-      "GUID": "b1779f0a-ee72-4d63-af81-cf0ab5770af3",
-      "bucketId": "f3e66d13-6682-4404-9007-1a278531e25d",
-      "hackoladeMeta": {
-        "validationErrors": {}
-      }
-    },
-    {
       "collectionName": "del_hack",
       "type": "object",
       "properties": [
@@ -367,6 +277,96 @@
       "hackoladeMeta": {
         "validationErrors": {}
       }
+    },
+    {
+      "collectionName": "add_own",
+      "type": "object",
+      "properties": [
+        {
+          "name": "new_column",
+          "hackoladeMeta": {},
+          "isActivated": true,
+          "primaryKey": false,
+          "mode": "char",
+          "uppercase": false,
+          "caseSpecific": false,
+          "required": false,
+          "alternateKey": false,
+          "childType": "char",
+          "type": "string",
+          "compositeKey": [
+            "compositePrimaryKey",
+            "compositeUniqueKey"
+          ],
+          "compositePrimaryKey": false,
+          "compositeUniqueKey": false,
+          "GUID": "86ab0afc-dc8b-4778-a529-cad54fbc112c",
+          "error": {
+            "name": false,
+            "code": false
+          }
+        },
+        {
+          "name": "new_column1",
+          "hackoladeMeta": {},
+          "isActivated": true,
+          "primaryKey": false,
+          "mode": "char",
+          "uppercase": false,
+          "caseSpecific": false,
+          "required": false,
+          "alternateKey": false,
+          "childType": "char",
+          "type": "string",
+          "compositeKey": [
+            "compositePrimaryKey",
+            "compositeUniqueKey"
+          ],
+          "compositePrimaryKey": false,
+          "compositeUniqueKey": false,
+          "GUID": "fec338d9-2380-4024-8a38-249e16346bfa",
+          "error": {
+            "name": false,
+            "code": false
+          }
+        },
+        {
+          "name": "new_column2",
+          "hackoladeMeta": {},
+          "isActivated": true,
+          "primaryKey": false,
+          "mode": "char",
+          "uppercase": false,
+          "caseSpecific": false,
+          "required": false,
+          "alternateKey": false,
+          "childType": "char",
+          "type": "string",
+          "compositeKey": [
+            "compositePrimaryKey",
+            "compositeUniqueKey"
+          ],
+          "compositePrimaryKey": false,
+          "compositeUniqueKey": false,
+          "GUID": "cc459e09-26f5-4200-9d81-4b0e028494aa",
+          "error": {
+            "name": false,
+            "code": false
+          }
+        }
+      ],
+      "definitions": {
+        "type": "definitions",
+        "properties": [],
+        "GUID": "92e02357-f17f-41c6-a98c-99e7af2f6ab9"
+      },
+      "isActivated": true,
+      "additionalProperties": false,
+      "GUID": "2f5dc37b-9979-4ccf-ad21-0500852bbfa2",
+      "bucketId": "f3e66d13-6682-4404-9007-1a278531e25d",
+      "hackoladeMeta": {
+        "validationErrors": {}
+      }
     }
   ],
   "buckets": [
@@ -377,7 +377,7 @@
         "2b8d47bc-86ec-4042-a4c0-5b9fb4b093ab",
         "65c8ee8b-3a1a-4eaa-9d7f-5277f1b488e3",
         "d60eb24d-1280-4511-99b1-f84ea0a89475",
-        "b1779f0a-ee72-4d63-af81-cf0ab5770af3"
+        "2f5dc37b-9979-4ccf-ad21-0500852bbfa2"
       ],
       "backgroundColor": {
         "r": 129,
@@ -465,14 +465,14 @@
     "e11ab237-32cc-4698-9ca2-943bc5cccc3c": "new_column1",
     "29c1b6df-bd9c-4fe8-ab1d-0295ab6ff57b": "new_column2",
     "ccbbbc2d-c50a-49d7-b33f-b6480569bfd2": "fk_new_table_new_column_to_new_table1_new_column2",
-    "b1779f0a-ee72-4d63-af81-cf0ab5770af3": "del_own",
-    "7ce60213-d0ee-4767-97f8-84022439fa16": "new_column",
-    "7b5bcd5e-df06-47fe-b476-5937c4641dc6": "new_column1",
-    "cd97786f-3550-4d75-904a-d97f743324bf": "new_column2",
     "d60eb24d-1280-4511-99b1-f84ea0a89475": "del_hack",
     "40ebc29b-4fbc-4b8a-8171-61a1d7da4648": "new_column",
     "b166bcd2-6c06-4a37-80b3-77c40520df76": "new_column1",
-    "40ea4d3a-6192-42ab-aa97-2b94fba33386": "new_column2"
+    "40ea4d3a-6192-42ab-aa97-2b94fba33386": "new_column2",
+    "2f5dc37b-9979-4ccf-ad21-0500852bbfa2": "add_own",
+    "86ab0afc-dc8b-4778-a529-cad54fbc112c": "new_column",
+    "fec338d9-2380-4024-8a38-249e16346bfa": "new_column1",
+    "cc459e09-26f5-4200-9d81-4b0e028494aa": "new_column2"
   },
   "definitions": {
     "type": "definitions",
@@ -498,7 +498,7 @@
   "creationTS": "2026-04-24T16:50:44.813Z",
   "GUID": "6487012c-ef33-49e6-b661-c11b228f93f0",
   "isLineageEnabled": false,
-  "lastModifTS": "2026-04-24T16:51:26.437Z",
+  "lastModifTS": "2026-04-24T16:53:48.287Z",
   "persistenceSchemaVersion": "8",
   "isCreatedByPlugin": true,
   "pluginInformation": {
@@ -509,6 +509,7 @@
   "applicationInformation": {
     "version": "8.10.4"
   },
+  "hackoladeMeta": {},
   "settings": {
     "centralPane": {
       "dbLevel": {
@@ -530,17 +531,17 @@
             "color": {}
           },
           {
-            "GUID": "b1779f0a-ee72-4d63-af81-cf0ab5770af3",
-            "x": 1531,
-            "y": 1385,
+            "GUID": "d60eb24d-1280-4511-99b1-f84ea0a89475",
+            "x": 1275,
+            "y": 1332,
             "width": 205,
             "height": 86,
             "color": {}
           },
           {
-            "GUID": "d60eb24d-1280-4511-99b1-f84ea0a89475",
-            "x": 1275,
-            "y": 1332,
+            "GUID": "2f5dc37b-9979-4ccf-ad21-0500852bbfa2",
+            "x": 1574,
+            "y": 1381,
             "width": 205,
             "height": 86,
             "color": {}
@@ -572,7 +573,8 @@
           "buckets": [],
           "decorativeSymbols": [],
           "forceLayout": true,
-          "defaultLinkLength": 300
+          "defaultLinkLength": 300,
+          "options": []
         },
         "diagramViews": [],
         "decorativeSymbols": [],
