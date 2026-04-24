@@ -256,96 +256,102 @@
       }
     },
     {
-      "collectionName": "Test22",
+      "collectionName": "Tets33",
       "type": "object",
       "properties": [
         {
           "name": "new_column",
-          "hackoladeMeta": {
-            "namingConvention": "code"
-          },
+          "hackoladeMeta": {},
           "isActivated": true,
           "primaryKey": false,
           "mode": "char",
           "uppercase": false,
           "caseSpecific": false,
           "required": false,
+          "alternateKey": false,
           "childType": "char",
           "type": "string",
           "compositeKey": [
             "compositePrimaryKey",
             "compositeUniqueKey"
           ],
-          "GUID": "80eb39ee-7b67-44f8-9e02-2473c666420a",
+          "compositePrimaryKey": false,
+          "compositeUniqueKey": false,
+          "GUID": "67f7ec9b-31b8-4c3a-87c7-731a15a370e5",
           "error": {
             "name": false,
             "code": false
-          },
-          "code": "new_column"
+          }
         },
         {
           "name": "new_column1",
-          "hackoladeMeta": {
-            "namingConvention": "code"
-          },
+          "hackoladeMeta": {},
           "isActivated": true,
           "primaryKey": false,
           "mode": "char",
           "uppercase": false,
           "caseSpecific": false,
           "required": false,
+          "alternateKey": false,
           "childType": "char",
           "type": "string",
           "compositeKey": [
             "compositePrimaryKey",
             "compositeUniqueKey"
           ],
-          "GUID": "bc252d84-dd8f-45a9-bea9-1bbcad1ea0ae",
+          "compositePrimaryKey": false,
+          "compositeUniqueKey": false,
+          "GUID": "2eba966a-5622-406a-8806-17baa1a11136",
           "error": {
             "name": false,
             "code": false
-          },
-          "code": "new_column1"
+          }
         },
         {
           "name": "new_column2",
-          "hackoladeMeta": {
-            "namingConvention": "code"
-          },
+          "hackoladeMeta": {},
           "isActivated": true,
           "primaryKey": false,
           "mode": "char",
           "uppercase": false,
           "caseSpecific": false,
           "required": false,
+          "alternateKey": false,
           "childType": "char",
           "type": "string",
           "compositeKey": [
             "compositePrimaryKey",
             "compositeUniqueKey"
           ],
-          "GUID": "4ae78dbf-c18d-4ab0-b63f-139c5e5f5ad3",
+          "compositePrimaryKey": false,
+          "compositeUniqueKey": false,
+          "GUID": "4e851d8b-a6bb-4406-9e96-553704524f1f",
           "error": {
             "name": false,
             "code": false
-          },
-          "code": "new_column2"
+          }
         }
       ],
       "definitions": {
         "type": "definitions",
         "properties": [],
-        "GUID": "9b2f315d-cc71-40e3-af6e-e400c8f243d1"
+        "GUID": "f2331b73-1ce0-41d3-bd73-600fbbd5086b"
       },
       "isActivated": true,
       "additionalProperties": false,
-      "GUID": "3b163340-4102-47d2-8e3a-af4a4829d631",
+      "GUID": "5b8510ce-e8ab-45c6-a1ec-a2781105fa84",
       "hackoladeMeta": {
         "namingConvention": "code",
         "validationErrors": {}
       },
       "code": "Test22"
     },
+        "validationErrors": {}
+      }
+    }
+  ],
+  "buckets": [],
+  "views": [
     {
       "collectionName": "Test11",
       "type": "object",
@@ -519,6 +525,10 @@
     "d507a747-9873-498a-bf6d-fabf369f19a3": "new_column",
     "7cd98cbc-4dbd-4ba7-b154-3c5ca99e9aaa": "new_column1",
     "75b6e7dd-b869-44d4-9bc8-99b55a9067a5": "new_column2"
+    "5b8510ce-e8ab-45c6-a1ec-a2781105fa84": "Tets33",
+    "67f7ec9b-31b8-4c3a-87c7-731a15a370e5": "new_column",
+    "2eba966a-5622-406a-8806-17baa1a11136": "new_column1",
+    "4e851d8b-a6bb-4406-9e96-553704524f1f": "new_column2"
   },
   "definitions": {
     "type": "definitions",
@@ -582,6 +592,7 @@
     }
   },
   "lastModifTS": "2026-04-24T15:07:21.808Z",
+  "lastModifTS": "2026-04-24T15:11:12.215Z",
   "persistenceSchemaVersion": "8",
   "isCreatedByPlugin": true,
   "pluginInformation": {
@@ -616,6 +627,17 @@
             "GUID": "3b163340-4102-47d2-8e3a-af4a4829d631",
             "x": 1078.0047647102633,
             "y": 1088.9047117750788,
+            "GUID": "ff8d5fa4-6640-4b20-9c8d-44873657997a",
+            "x": 1162,
+            "y": 1467,
+            "width": 347.6456456456453,
+            "height": 207.93893893893906,
+            "color": {}
+          },
+          {
+            "GUID": "5b8510ce-e8ab-45c6-a1ec-a2781105fa84",
+            "x": 1447.9814532112302,
+            "y": 1833.9273603998568,
             "width": 205,
             "height": 86,
             "color": {}
