@@ -491,6 +491,8 @@
   },
   "sources": [],
   "decorativeSymbols": [],
+  "businessGlossaries": [],
+  "businessGlossaryTerms": [],
   "dbVendor": "Teradata",
   "dbVersion": "v17.20",
   "checkOption": "WITH NO CHECK OPTION",
@@ -498,7 +500,7 @@
   "creationTS": "2026-04-24T16:50:44.813Z",
   "GUID": "6487012c-ef33-49e6-b661-c11b228f93f0",
   "isLineageEnabled": false,
-  "lastModifTS": "2026-04-24T16:53:48.287Z",
+  "lastModifTS": "2026-04-27T10:46:47.042Z",
   "persistenceSchemaVersion": "8",
   "isCreatedByPlugin": true,
   "pluginInformation": {
