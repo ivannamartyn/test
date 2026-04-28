@@ -1,7 +1,6 @@
 ID|Term|Definition
 0003|Lifetime Value|The cumulative net revenue attributed to a customer across all orders, regardless of channel. Updated on each confirmed order.
 0004|Acquisition Channel|The channel through which a customer first engaged with RetailCo. Set once at registration. Values: Web, Store, Referral, Partner.
-0005|Order|A purchase transaction placed by a customer. Has one or more line items and passes through a defined status lifecycle.
 0006|Channel|The commercial channel through which an order was placed. Values: Web, Mobile, In-Store, Partner. Grouped into Digital (Web, Mobile) and Physical (In-Store, Partner).
 0007|Line Item|A single product entry within an order, recording product, quantity, unit price, and line-level discount.
 0008|Extended Price|The revenue attributable to a single line item, calculated as Quantity x UnitPrice x (1 - DiscountPct). Additive across line items.
