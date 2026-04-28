@@ -1,5 +1,4 @@
 ID|Term|Definition
-0003|Lifetime Value|The cumulative net revenue attributed to a customer across all orders, regardless of channel. Updated on each confirmed order.
 0004|Acquisition Channel|The channel through which a customer first engaged with RetailCo. Set once at registration. Values: Web, Store, Referral, Partner.
 0006|Channel|The commercial channel through which an order was placed. Values: Web, Mobile, In-Store, Partner. Grouped into Digital (Web, Mobile) and Physical (In-Store, Partner).
 0007|Line Item|A single product entry within an order, recording product, quantity, unit price, and line-level discount.
