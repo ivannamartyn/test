@@ -7,7 +7,6 @@ ID|Term|Definition
 0010|Net Revenue|Gross order value minus the order-level discount amount. The primary revenue metric for business reporting.
 0011|Promotion|A discount campaign optionally applied to an order. Types: Percentage (fraction of gross value), Fixed (absolute amount), BOGO (buy-one-get-one).
 0012|List Price|The standard published selling price of a product at the current point in time. May differ from the unit price charged on a historical order.
-0013|Unit Price|The actual price charged for a product on a specific order line item. Captured at time of order and does not change if list price is later updated.
 0014|Cost Price|The per-unit cost of a product from its primary supplier. A restricted financial metric visible to finance roles only.
 0015|Standard Cost|Cost price as used in analytical margin calculations: CostPrice x Quantity = CostAmount per line item.
 0016|Gross Margin|Net revenue minus cost amount for a given line item. Calculable only when cost price is available.
