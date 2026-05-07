@@ -27,6 +27,12 @@
           },
           "childRelationships": [
             "ccbbbc2d-c50a-49d7-b33f-b6480569bfd2"
+          ],
+          "glossaryTerms": [
+            {
+              "GUID": "d4eb7a66-af27-4bff-9214-854e2e42f287",
+              "glossaryTermId": "3fe4d9a0-546b-477b-99e4-d0e697776cbb"
+            }
           ]
         },
         {
@@ -51,7 +57,17 @@
           "error": {
             "name": false,
             "code": false
-          }
+          },
+          "glossaryTerms": [
+            {
+              "GUID": "f4e578e7-fcba-4bff-bf18-770b5acc3109",
+              "glossaryTermId": "6c5a6f2e-18bb-44d3-93d8-058d2200707b"
+            },
+            {
+              "GUID": "9fee0eae-58bb-49df-b69a-978afe5b64c1",
+              "glossaryTermId": "ceedf174-c783-4572-a95b-961001517d28"
+            }
+          ]
         },
         {
           "name": "new_column2",
@@ -75,7 +91,13 @@
           "error": {
             "name": false,
             "code": false
-          }
+          },
+          "glossaryTerms": [
+            {
+              "GUID": "27c9c447-d160-40c1-9687-15907c0ab5d6",
+              "glossaryTermId": "37984a3c-c676-401d-b1d0-26c3c7f55079"
+            }
+          ]
         }
       ],
       "definitions": {
@@ -186,7 +208,8 @@
       "bucketId": "f3e66d13-6682-4404-9007-1a278531e25d",
       "hackoladeMeta": {
         "validationErrors": {}
-      }
+      },
+      "glossaryTerms": []
     },
     {
       "collectionName": "del_hack",
@@ -491,8 +514,115 @@
   },
   "sources": [],
   "decorativeSymbols": [],
-  "businessGlossaries": [],
-  "businessGlossaryTerms": [],
+  "businessGlossaries": [
+    {
+      "GUID": "d6f0033d-1b03-49ed-b526-1262dc6ccb10",
+      "name": "RetailCo glossary.csv",
+      "updatedAt": "2026-04-28T14:39:45.719Z",
+      "hasHeaders": true,
+      "format": "custom",
+      "columnSeparator": "|",
+      "kind": "relativePath",
+      "relativePath": "RetailCo glossary.csv",
+      "mapping": [
+        {
+          "GUID": "afca0324-9085-4e01-9934-139b20a1646e",
+          "columnIdentifier": "ID",
+          "displayName": "Identifier",
+          "role": "identifier",
+          "isMultipleValue": false,
+          "position": 0,
+          "displayType": "text",
+          "isMapped": true
+        },
+        {
+          "GUID": "3ceaaec4-9879-4cd2-99e2-82a04b54fb49",
+          "columnIdentifier": "Term",
+          "displayName": "Term",
+          "role": "name",
+          "isMultipleValue": false,
+          "position": 1,
+          "displayType": "text",
+          "isMapped": true
+        },
+        {
+          "GUID": "65dba5f5-f0bd-4c6b-bfdf-e121ceed890d",
+          "columnIdentifier": "Definition",
+          "displayName": "Description",
+          "role": "description",
+          "isMultipleValue": false,
+          "position": 2,
+          "displayType": "text",
+          "isMapped": true
+        }
+      ]
+    }
+  ],
+  "businessGlossaryTerms": [
+    {
+      "GUID": "01ff50b5-87f1-4b8a-b4b4-f6fb1bb7da45",
+      "glossaryId": "d6f0033d-1b03-49ed-b526-1262dc6ccb10",
+      "name": "Order",
+      "properties": {
+        "afca0324-9085-4e01-9934-139b20a1646e": "0005",
+        "3ceaaec4-9879-4cd2-99e2-82a04b54fb49": "Order",
+        "65dba5f5-f0bd-4c6b-bfdf-e121ceed890d": "A purchase transaction placed by a customer. Has one or more line items and passes through a defined status lifecycle."
+      },
+      "refIds": [
+        "953ca73d-cc5c-43b5-8aa7-0d534e8c008d"
+      ],
+      "updatedAt": "2026-04-28T14:28:44.560Z",
+      "isDeleted": true
+    },
+    {
+      "GUID": "6c5a6f2e-18bb-44d3-93d8-058d2200707b",
+      "glossaryId": "d6f0033d-1b03-49ed-b526-1262dc6ccb10",
+      "name": "SKU",
+      "properties": {
+        "afca0324-9085-4e01-9934-139b20a1646e": "0017",
+        "3ceaaec4-9879-4cd2-99e2-82a04b54fb49": "SKU",
+        "65dba5f5-f0bd-4c6b-bfdf-e121ceed890d": "Stock-Keeping Unit. A unique alphanumeric code that identifies a product across operational and analytical systems."
+      },
+      "refIds": [
+        "953ca73d-cc5c-43b5-8aa7-0d534e8c008d"
+      ],
+      "updatedAt": "2026-04-28T14:39:45.719Z"
+    },
+    {
+      "GUID": "ceedf174-c783-4572-a95b-961001517d28",
+      "glossaryId": "d6f0033d-1b03-49ed-b526-1262dc6ccb10",
+      "name": "Category",
+      "properties": {
+        "afca0324-9085-4e01-9934-139b20a1646e": "0018",
+        "3ceaaec4-9879-4cd2-99e2-82a04b54fb49": "Category",
+        "65dba5f5-f0bd-4c6b-bfdf-e121ceed890d": "A hierarchical classification for products with up to three levels: Root, Mid, and Leaf. Products are assigned only to Leaf categories."
+      }
+    },
+    {
+      "GUID": "3fe4d9a0-546b-477b-99e4-d0e697776cbb",
+      "glossaryId": "d6f0033d-1b03-49ed-b526-1262dc6ccb10",
+      "name": "Lifetime Value",
+      "properties": {
+        "afca0324-9085-4e01-9934-139b20a1646e": "0003",
+        "3ceaaec4-9879-4cd2-99e2-82a04b54fb49": "Lifetime Value",
+        "65dba5f5-f0bd-4c6b-bfdf-e121ceed890d": "The cumulative net revenue attributed to a customer across all orders, regardless of channel. Updated on each confirmed order."
+      }
+    },
+    {
+      "GUID": "37984a3c-c676-401d-b1d0-26c3c7f55079",
+      "glossaryId": "d6f0033d-1b03-49ed-b526-1262dc6ccb10",
+      "name": "Unit Price",
+      "properties": {
+        "afca0324-9085-4e01-9934-139b20a1646e": "0013",
+        "3ceaaec4-9879-4cd2-99e2-82a04b54fb49": "Unit Price",
+        "65dba5f5-f0bd-4c6b-bfdf-e121ceed890d": "The actual price charged for a product on a specific order line item. Captured at time of order and does not change if list price is later updated."
+      },
+      "refIds": [
+        "f4cfdea8-24cd-47ec-b755-f271bc33b182"
+      ],
+      "updatedAt": "2026-04-28T14:39:45.719Z"
+    }
+  ],
   "dbVendor": "Teradata",
   "dbVersion": "v17.20",
   "checkOption": "WITH NO CHECK OPTION",
@@ -500,7 +630,7 @@
   "creationTS": "2026-04-24T16:50:44.813Z",
   "GUID": "6487012c-ef33-49e6-b661-c11b228f93f0",
   "isLineageEnabled": false,
-  "lastModifTS": "2026-04-27T10:46:47.042Z",
+  "lastModifTS": "2026-04-28T15:02:01.492Z",
   "persistenceSchemaVersion": "8",
   "isCreatedByPlugin": true,
   "pluginInformation": {
@@ -509,7 +639,7 @@
     "pluginEngineVersion": "1.0.0"
   },
   "applicationInformation": {
-    "version": "8.10.4"
+    "version": "8.10.5"
   },
   "hackoladeMeta": {},
   "settings": {
