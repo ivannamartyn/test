@@ -1,5 +1,5 @@
 {
-  "modelName": "Modeling dari-analytics-support-shared-compute Cluster 2026-04-15 11:01:16",
+  "modelName": "43Modeling dari-analytics-support-shared-compute Cluster 2026-04-15 11:01:16",
   "collections": [
     {
       "collectionName": "billing_repair_card_line_item_history",
@@ -46620,7 +46620,7 @@
   "isRunning": true,
   "state": "RUNNING",
   "data_security_mode": "USER_ISOLATION",
-  "lastModifTS": "2026-05-12T19:02:09.267Z",
+  "lastModifTS": "2026-05-12T19:34:31.648Z",
   "persistenceSchemaVersion": "8",
   "isCreatedByPlugin": true,
   "pluginInformation": {
@@ -46631,7 +46631,11 @@
   "applicationInformation": {
     "version": "8.11.2"
   },
-  "hackoladeMeta": {},
+  "hackoladeMeta": {
+    "validationErrors": {
+      "modelName": false
+    }
+  },
   "settings": {
     "centralPane": {
       "dbLevel": {
